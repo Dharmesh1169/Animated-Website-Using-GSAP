@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Website Using GSAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="main">
+        <section class="section1">
+            <nav>
+                <h1><i class="ri-shining-2-fill"></i> WizardZ</h1>
+                <div class="part-2">
+                    <h4>About us</h4>
+                    <h4>Services</h4>
+                    <h4>Use Cases</h4>
+                    <h4>Pricing</h4>
+                    <h4>Bolg</h4>
+                    <button>Request a quote</button>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="left">
+                    <h1>Navigating the</h1>
+                    <h1>digital landscape</h1>
+                    <h1>for success</h1>
+                    <p>Our digital marketing agency helpd businesses<br>grow and succeed online through a range
+                        of<br>services including SEO, PPC, Social media marketing,<br>and content creation</p>
+                    <button>Book a consultation</button>
+                </div>
+                <div class="right">
+                    <img src="Images/homepage-megaphone.svg" alt="">
+                </div>
+            </div>
+
+            <div class="secbtm">
+                <img src="Images/amazon-logo-s3f.webp" class="a" alt="">
+                <img src="Images/dribbble-png-dribbble-logo-240.webp" alt="">
+                <img src="Images/hubspot.webp" class="hub" alt="">
+                <img src="Images/notion.png" class="n" alt="">
+                <img src="Images/netflix.webp" alt="">
+                <img src="Images/zoom.webp" class="z" alt="">
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="serv">
+                <h3>Services</h3>
+                <p>At our digital marketing agency, we offer a range of services to help<br>businesses grow and succeed
+                    online. These services included: </p>
+            </div>
+
+            <div class="cards">
+                <div class="elem w e1">
+                    <div class="part1">
+                        <h2>Search engine<br>optimization</h2>
+                        <h3><i class="ri-arrow-right-up-line"></i>Learn more</h3>
+                    </div>
+                    <div class="part2">
+                        <img src="Images/elem1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="elem b e2">
+                    <div class="part1">
+                        <h2>Pay per click<br>advertising</h2>
+                        <h3><i class="ri-arrow-right-up-line"></i>Learn more</h3>
+                    </div>
+                    <div class="part2">
+                        <img class="red" src="Images/elem2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="elem b e3">
+                    <div class="part1">
+                        <h2>Social media<br>marketing</h2>
+                        <h3><i class="ri-arrow-right-up-line"></i>Learn more</h3>
+                    </div>
+                    <div class="part2">
+                        <img src="Images/elem3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="elem w e4">
+                    <div class="part1">
+                        <h2>E-mail<br>marketing</h2>
+                        <h3><i class="ri-arrow-right-up-line"></i>Learn more</h3>
+                    </div>
+                    <div class="part2">
+                        <img src="Images/elem4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="lmth">
+                <div class="left">
+                    <h1>Let's make things happen</h1>
+                    <p>Contact us today to learn more about how our digital<br>marketing services can help your business
+                        grow and<br>succeed online.</p>
+                    <button>Get your free proposal</button>
+                </div>
+                <div class="right">
+                    <img src="Images/lmth.svg" alt="">
+                </div>
+            </div>
+
+            <div class="cs">
+                <h3>Case study</h3>
+                <p>Explore Real-Life Examples of Our Proven Digital Marketing Success<br>through Our Case Studies.</p>
+            </div>
+
+            <div class="lstdiv">
+                <div class="wrap">
+                    <div class="ele">
+                        <p>For a local restaurant, we<br>implemented a targeted PPC<br>campaign that resulted in
+                            50%<br>increase in website traffic and a<br>25% increase in sales.</p>
+                        <h3>Learn more<i class="ri-arrow-right-up-line"></i></h3>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="ele">
+                        <p>For a B2B software company, we<br>developed an SEO strategy that<br>resulted in a first page
+                            ranking<br>for key keywords and a 200%<br>increase in organic traffic.</p>
+                        <h3>Learn more<i class="ri-arrow-right-up-line"></i></h3>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="ele">
+                        <p>For a national retail chain, we<br>created a social media<br>marketing campaign
+                            that<br>increased followers by 25% and<br>generated a 20% increase in<br>online sales</p>
+                        <h3>Learn more<i class="ri-arrow-right-up-line"></i></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
